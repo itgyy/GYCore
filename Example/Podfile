@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GYCore_Example' do
+  pod 'GYCore', :path => '../'
+
+  target 'GYCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
