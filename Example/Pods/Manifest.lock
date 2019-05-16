@@ -1,0 +1,16 @@
+PODS:
+  - GYCore (0.1.0)
+
+DEPENDENCIES:
+  - GYCore (from `../`)
+
+EXTERNAL SOURCES:
+  GYCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYCore: a5a7822cfbd1b4cc5800800b728a7b17626752f9
+
+PODFILE CHECKSUM: 41a52cd2e72db592a3031915b123185dfa01af9b
+
+COCOAPODS: 1.6.1

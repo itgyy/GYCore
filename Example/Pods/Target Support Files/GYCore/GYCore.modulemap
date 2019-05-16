@@ -1,0 +1,6 @@
+framework module GYCore {
+  umbrella header "GYCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
