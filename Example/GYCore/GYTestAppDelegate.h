@@ -6,10 +6,9 @@
 //  Copyright (c) 2019 guyaoyao. All rights reserved.
 //
 
-@import UIKit;
+#import <GYCore/GYCore.h>
 
-@interface GYTestAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GYTestAppDelegate : GYAppDelegate
 
-@property (strong, nonatomic) UIWindow *window;
 
 @end

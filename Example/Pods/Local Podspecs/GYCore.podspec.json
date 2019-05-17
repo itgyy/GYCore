@@ -1,7 +1,7 @@
 {
   "name": "GYCore",
   "version": "0.1.0",
-  "summary": "A short description of GYCore.",
+  "summary": "this a manager for ios preoject",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/guyaoyao/GYCore",
   "license": {
@@ -12,7 +12,7 @@
     "guyaoyao": "851511476@qq.com"
   },
   "source": {
-    "git": "https://github.com/guyaoyao/GYCore.git",
+    "git": "https://github.com/itgyy/GYCore.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -20,6 +20,7 @@
 #import "MainTabModule.h"
 #import "MainTabServer.h"
 #import "MainTabServerProtocol.h"
+#import "NSObject+GYCoreObject.h"
 
 FOUNDATION_EXPORT double GYCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char GYCoreVersionString[];

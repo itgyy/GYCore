@@ -1,0 +1,181 @@
+2019-05-16 13:41:49,828 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-05-16 13:41:49,879 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.0/libexec/bin/user.properties
+2019-05-16 13:41:49,880 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.0/libexec/bin/system.properties
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: java.version=1.8.0_201
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: os.arch=x86_64
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: os.version=10.14.3
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-05-16 13:41:49,888 INFO o.a.j.JMeter: Available Processors =8
+2019-05-16 13:41:49,895 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-05-16 13:41:49,895 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-05-16 13:41:49,895 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.0/libexec
+2019-05-16 13:41:49,895 INFO o.a.j.JMeter: user.dir  =/Users/gyy/Desktop/itgyy/Pod/GYCore
+2019-05-16 13:41:49,895 INFO o.a.j.JMeter: PWD       =/Users/gyy/Desktop/itgyy/Pod/GYCore
+2019-05-16 13:41:49,897 INFO o.a.j.JMeter: IP: 192.168.1.107 Name: gu_yao FullName: 192.168.1.107
+2019-05-16 13:41:52,291 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-05-16 13:41:52,313 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-05-16 13:41:52,314 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-05-16 13:41:52,407 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-05-16 13:41:53,270 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-05-16 13:41:53,270 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-05-16 13:41:54,529 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2019-05-16 13:41:55,039 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar)? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui.
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/RequestEntity
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_201]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:5.0 r1840935]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_201]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_201]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_201]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.RequestEntity
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_201]
+	... 29 more
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-05-16 13:41:55,609 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-05-16 13:41:55,949 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-05-16 13:41:55,950 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.0/libexec/bin/proxyserver.jks
+2019-05-16 13:41:56,096 INFO o.a.j.s.FileServer: Default base='/Users/gyy/Desktop/itgyy/Pod/GYCore'
+2019-05-16 13:41:56,351 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-05-16 13:41:56,351 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-05-16 13:41:56,351 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-05-16 13:41:56,352 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-05-16 13:42:22,872 INFO o.a.j.g.a.Load: Loading file: /Users/gyy/Downloads/umse-push-v3.2.0.jmx
+2019-05-16 13:42:22,873 INFO o.a.j.s.FileServer: Set new base='/Users/gyy/Downloads'
+2019-05-16 13:42:23,087 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-05-16 13:42:23,113 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-05-16 13:42:23,115 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-05-16 13:42:23,117 INFO o.a.j.s.SaveService: Loading file: /Users/gyy/Downloads/umse-push-v3.2.0.jmx
+2019-05-16 13:42:23,479 INFO o.a.j.s.FileServer: Set new base='/Users/gyy/Downloads'
+2019-05-16 13:43:02,955 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-05-16 13:43:02,956 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 13:43:02,957 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 13:43:02,985 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-05-16 13:43:03,208 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : umse
+2019-05-16 13:43:03,208 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group umse.
+2019-05-16 13:43:03,208 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-05-16 13:43:03,210 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-05-16 13:43:03,230 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-05-16 13:43:03,230 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-05-16 13:43:03,232 INFO o.a.j.t.JMeterThread: Thread started: umse 1-1
+2019-05-16 13:43:03,276 INFO o.a.j.u.BeanShellTestElement: time:1557985383274
+2019-05-16 13:43:03,280 INFO o.a.j.u.BeanShellTestElement: body={"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}
+2019-05-16 13:43:03,284 INFO o.a.j.u.BeanShellTestElement: body:/umse/v3/msg/pushByUsers{"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}SV-UZHSH-00002ba149e67de2e4dfae30a82abec26a3a1557985383274
+2019-05-16 13:43:03,294 INFO o.a.j.u.BeanShellTestElement: sign:238b03d53f39367802f9e7d37c42509d290d813e7f426a23070c1c610db55871
+2019-05-16 13:43:03,308 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = gu_yao
+2019-05-16 13:43:03,317 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-05-16 13:43:03,671 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-05-16 13:43:03,685 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-05-16 13:43:03,685 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-05-16 13:43:03,889 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-05-16 13:43:03,890 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-05-16 13:43:03,890 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-05-16 13:43:04,282 INFO o.a.j.t.JMeterThread: Thread is done: umse 1-1
+2019-05-16 13:43:04,283 INFO o.a.j.t.JMeterThread: Thread finished: umse 1-1
+2019-05-16 13:43:04,286 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-05-16 13:43:04,287 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-05-16 13:50:46,332 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-05-16 13:50:46,333 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 13:50:46,338 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-05-16 13:50:46,495 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : umse
+2019-05-16 13:50:46,496 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group umse.
+2019-05-16 13:50:46,496 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-05-16 13:50:46,497 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-05-16 13:50:46,521 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-05-16 13:50:46,521 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-05-16 13:50:46,521 INFO o.a.j.t.JMeterThread: Thread started: umse 1-1
+2019-05-16 13:50:46,543 INFO o.a.j.u.BeanShellTestElement: time:1557985846543
+2019-05-16 13:50:46,547 INFO o.a.j.u.BeanShellTestElement: body={"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}
+2019-05-16 13:50:46,548 INFO o.a.j.u.BeanShellTestElement: body:/umse/v3/msg/pushByUsers{"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}SV-UZHSH-00002ba149e67de2e4dfae30a82abec26a3a1557985846543
+2019-05-16 13:50:46,557 INFO o.a.j.u.BeanShellTestElement: sign:7a515c7c99c1ea5335b04ab855d1703256d7d705f38f11bc6b7be58e6452a0aa
+2019-05-16 13:50:47,847 INFO o.a.j.t.JMeterThread: Thread is done: umse 1-1
+2019-05-16 13:50:47,848 INFO o.a.j.t.JMeterThread: Thread finished: umse 1-1
+2019-05-16 13:50:47,848 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-05-16 13:50:47,849 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-05-16 13:52:47,772 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-05-16 13:52:47,773 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 13:52:47,777 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-05-16 13:52:47,921 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : umse
+2019-05-16 13:52:47,921 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group umse.
+2019-05-16 13:52:47,922 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-05-16 13:52:47,923 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-05-16 13:52:47,942 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-05-16 13:52:47,943 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-05-16 13:52:47,943 INFO o.a.j.t.JMeterThread: Thread started: umse 1-1
+2019-05-16 13:52:47,960 INFO o.a.j.u.BeanShellTestElement: time:1557985967958
+2019-05-16 13:52:47,969 INFO o.a.j.u.BeanShellTestElement: body={"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":true},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}
+2019-05-16 13:52:47,973 INFO o.a.j.u.BeanShellTestElement: body:/umse/v3/msg/pushByUsers{"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":true},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["28234554"]}SV-UZHSH-00002ba149e67de2e4dfae30a82abec26a3a1557985967958
+2019-05-16 13:52:47,982 INFO o.a.j.u.BeanShellTestElement: sign:c8c658365cfa67712e80bf7fa1fcf0d4f9bd4889f2f767d6d2da147ff900bba9
+2019-05-16 13:52:48,099 INFO o.a.j.t.JMeterThread: Thread is done: umse 1-1
+2019-05-16 13:52:48,099 INFO o.a.j.t.JMeterThread: Thread finished: umse 1-1
+2019-05-16 13:52:48,099 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-05-16 13:52:48,099 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-05-16 14:05:59,247 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-05-16 14:05:59,248 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 14:05:59,251 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-05-16 14:05:59,396 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : umse
+2019-05-16 14:05:59,398 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group umse.
+2019-05-16 14:05:59,399 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-05-16 14:05:59,399 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-05-16 14:05:59,419 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-05-16 14:05:59,420 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-05-16 14:05:59,420 INFO o.a.j.t.JMeterThread: Thread started: umse 1-1
+2019-05-16 14:05:59,431 INFO o.a.j.u.BeanShellTestElement: time:1557986759429
+2019-05-16 14:05:59,442 INFO o.a.j.u.BeanShellTestElement: body={"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["100013957366169334"]}
+2019-05-16 14:05:59,444 INFO o.a.j.u.BeanShellTestElement: body:/umse/v3/msg/pushByUsers{"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":-1,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["100013957366169334"]}SV-UZHSH-00002ba149e67de2e4dfae30a82abec26a3a1557986759429
+2019-05-16 14:05:59,451 INFO o.a.j.u.BeanShellTestElement: sign:0ea1518b8971f9d7d99b6fbf749d2073c378c947f9a2781b4ab6498ce8f99213
+2019-05-16 14:05:59,610 INFO o.a.j.t.JMeterThread: Thread is done: umse 1-1
+2019-05-16 14:05:59,610 INFO o.a.j.t.JMeterThread: Thread finished: umse 1-1
+2019-05-16 14:05:59,610 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-05-16 14:05:59,610 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-05-16 14:11:07,284 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-05-16 14:11:07,289 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-05-16 14:11:07,293 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-05-16 14:11:07,534 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : umse
+2019-05-16 14:11:07,535 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group umse.
+2019-05-16 14:11:07,535 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-05-16 14:11:07,536 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-05-16 14:11:07,553 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-05-16 14:11:07,553 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-05-16 14:11:07,554 INFO o.a.j.t.JMeterThread: Thread started: umse 1-1
+2019-05-16 14:11:07,562 INFO o.a.j.u.BeanShellTestElement: time:1557987067562
+2019-05-16 14:11:07,565 INFO o.a.j.u.BeanShellTestElement: body={"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":2,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["100013957366169334"]}
+2019-05-16 14:11:07,567 INFO o.a.j.u.BeanShellTestElement: body:/umse/v3/msg/pushByUsers{"message":{"android":null,"data":{"body":{"extData":{"api":null,"devControl":null,"device":null,"expireTime":86400,"isMsgCenter":1,"page":{"callId":1,"params":[],"url":"http://resource.haier.net/download/resource/uzhsh/00001/1547541546522.html"}},"view":{"btns":[{"callId":1,"text":"查看详情"},{"callId":0,"text":"取消"}],"containerType":"0","content":"领海贝兑豪礼，网器操控，售后服务任你选！","showType":2,"title":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"msgType":0,"timestamp":1555551544228},"ios":{"jpush":{"alert":"看新手攻略领福利啦~欢迎来到海尔优家！"}},"notification":{"body":"领海贝兑豪礼，网器操控，售后服务任你选！","title":"看新手攻略领福利啦~欢迎来到海尔优家！"},"options":{"businessType":0,"expires":86400,"jiguangOptions":{"apnsProduction":false},"msgName":"","priority":null},"version":"v3"},"toApps":["MB-UZHSH-0000","MB-UZHSH-0001"],"toUsers":["100013957366169334"]}SV-UZHSH-00002ba149e67de2e4dfae30a82abec26a3a1557987067562
+2019-05-16 14:11:07,571 INFO o.a.j.u.BeanShellTestElement: sign:30f38805d929e23dc0ea393dc01318cc785e9e6c54a40d8fee1ac5222f280c4b
+2019-05-16 14:11:07,724 INFO o.a.j.t.JMeterThread: Thread is done: umse 1-1
+2019-05-16 14:11:07,724 INFO o.a.j.t.JMeterThread: Thread finished: umse 1-1
+2019-05-16 14:11:07,725 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-05-16 14:11:07,726 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
